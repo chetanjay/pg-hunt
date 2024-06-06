@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+}
+/* main body start */
+.main-body{
+    /* border: solid black 1px; */
+    margin-left:-8px;
+    margin-top:-8px;
+    flex-direction: column;
+    margin-right:-8px;
+}
+/* main body ends */ 
+
+/* header start */
+.header{
+    /* border:solid 2px green; */
+    height: 80px;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(243, 240, 219);
+}
+.logo-section{
+    /* border:solid 2px blue; */
+    height:100%;
+    width:20%;
+}
+.logo{
+    /* border:solid 2px plum; */
+    margin-left:25px;
+}
+.logo>img{
+    height: 46px;
+    width: 116px;
+    padding-top:8px;
+}
+.blank-space{
+    /* border:solid 2px palevioletred; */
+    height: 80px;
+    width: 60%;
+}
+.logout-section{
+    border:solid 2px none;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+    /* padding-top:15px; */
+    align-items: center;
+}
+.logout{
+    border:solid 2px rgb(255, 255, 255);
+    height: 40px;
+    width: 90px;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 17px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+/* header end */
+
+/* content start */
+.content-part{
+    /* border:solid 2px black; */
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    padding-top:80px;
+}
+.main-content{
+    border:solid 2px gray;
+    height: 295px;
+    width: 800px;
+    align-self: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.MyProfile_text{
+    /* border:solid 2px black; */
+    height: 70px;
+    width: 100%;
+    background-color: rgb(243, 240, 219);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left:30px;
+}
+.MyProfile_text>p{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 30px;
+    align-self: center;
+}
+.Profile-content{
+    /* border:solid 2px firebrick; */
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 250, 238);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.profile_pic{
+    /* border:solid 2px blue; */
+    height:90%;
+    width: 25%;
+    justify-content: center;
+    padding-top:15px;
+    
+}
+.profile_pic>img{
+    height: 140px;
+    width: 140px;
+    border:solid 2px gray;
+    border-radius: 60%;
+}
+
+/* profile detail start */
+.profile_details{
+    /* border:solid 2px tomato; */
+    height: 100%;
+    width: 75%;
+    flex-direction: column;
+    border-bottom-right-radius:10px ;
+}
+.profile_details>div{
+    /* border:solid 2px black; */
+    padding: 5px;
+    height:100%;
+    width: 100%;
+}
+.edit{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.dets>p{
+    margin: 0px;
+}
+.dets>input{
+    height: 30px;
+    width: 300px;
+    display: none;
+}
+.dets>button{
+    margin-left: 5px;
+    display: none;
+    height: 20px;
+}
+.edit-profile-part{
+    justify-content: right;
+}
+.prof_gender-part>div{
+    /* border:solid 2px lawngreen; */
+    height:100%;
+    width: 100%;
+}
+.edit-profile{
+    /* border:solid 2px darkblue; */
+    height: 70%;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: white;
+    margin-right:6px;
+}
+.edit-profile>p{
+    font-family: 'Arima Madurai', cursive;
+    font-size:16px;
+    margin-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* profile detail end */
+
+/* password change */
+.password_change{
+    /* border: solid black 2px; */
+    height: 250px;
+    margin-top: 10px;
+    width: 500px;
+    align-self: center;
+    display:none;
+    flex-direction: column;
+}
+.password_change>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.password_change>form>input{
+    height: 30px;
+    width: 250px;
+    margin: 5px;
+}
+#s1{
+    border: none;
+    border-radius: 5px;
+}
+.password_change button{
+    margin: 5px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+/* footer-start */
+.footer{
+    /* border:2px solid rgb(61, 59, 59); */
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    background-color:rgb(48, 48, 43);
+}
+.footer-container{
+    border:2px solid none;
+    height:50px;
+    width:500px;
+    align-self: center;
+    flex-direction: column;
+}.footer-container>div{
+    width: 100%;
+    height: 100%;
+    border:solid 2px none;
+}
+.copyright-part{
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+}
+/* footer-end */
+/* content end */

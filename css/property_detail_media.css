@@ -1,0 +1,90 @@
+@media(max-width:785px) {
+    .user-testemonial-card {
+        width: 95%;
+    }
+
+    .comments-heading {
+        width: 85%;
+    }
+}
+
+@media(max-width:768px) {
+    .property-details {
+        width: 95%;
+        padding: 5px 10px;
+    }
+
+    .amenities-details {
+        width: 95%;
+
+    }
+
+    .amenities-details {
+        height: auto;
+    }
+
+    .amenities-list {
+        flex-direction: column;
+        height: auto;
+        padding: 5px 20px;
+        padding-bottom: 30px;
+    }
+
+    .amenities-list>div {
+        height: auto;
+    }
+
+    .property-about {
+        width: 95%;
+        padding-left: 5px;
+    }
+
+    .property-rating {
+        width: 95%;
+    }
+
+    .rating-criteria-text {
+        margin-top: -5px;
+    }
+
+}
+
+@media(max-width:556px) {
+    .rating-categories {
+        flex-direction: column;
+    }
+
+    .property-rating {
+        width: 90%;
+        padding-bottom: 40px;
+    }
+
+    .rating-categories>div {
+        width: fit-content;
+    }
+
+    .interested-container i {
+        margin-right: 5px;
+    }
+
+    .interested-text {
+        margin-right: 5px;
+    }
+
+    .price>div {
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .Button {
+        margin-top: 20px;
+    }
+
+    .rating-circle{
+        margin-left: 40px;
+    }
+
+    .comment{
+        width: 100%;
+    }
+}
